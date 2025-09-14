@@ -1,0 +1,38 @@
+                                          Challenges Faced:
+Data Quality: The CORD-19 dataset contains many missing values, especially in the abstract and journal columns.
+
+Date Processing: The publish_time column had inconsistent formats that needed careful handling.
+
+Text Processing: Cleaning and analyzing text data required careful handling of punctuation, stopwords, and special characters.
+
+Streamlit Deployment: Creating an interactive app that responds to user inputs while maintaining performance.
+
+
+
+                                          Key Learnings:
+Data Cleaning: Gained experience in handling missing data and converting data types.
+
+Text Analysis: Learned how to process text data and extract insights using word frequency and word clouds.
+
+Visualization: Created various visualizations to communicate patterns in the data effectively.
+
+Interactive Apps: Built a functional Streamlit application that allows users to explore the data dynamically.
+
+
+
+
+                                          Insights from the Data:
+Publication Trends: COVID-19 research publications increased dramatically in 2020 and remained high in subsequent years.
+
+Journal Distribution: A small number of journals published a large proportion of COVID-19 research.
+
+Common Themes: The most frequent words in titles reflect the main research focus areas like "COVID", "patients", "health", and "pandemic".
+
+
+
+                                          How to Run the Streamlit App:
+Save the Streamlit code as app.py
+
+Make sure the metadata.csv file is in the same directory
+
+Install required libraries: `pip install streamlit pandas
